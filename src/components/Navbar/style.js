@@ -69,7 +69,7 @@ export const DivButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  @media (min-width: 1300px) {
+  @media (min-width: 1301px) {
     display: none;
   }
 `;

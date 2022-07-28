@@ -6,25 +6,27 @@ export const DivStyle = styled.div`
   width: 100%;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   background: ${theme.secundary};
 `;
 export const DivEmail = styled.div`
-  width: 25%;
+  width: 30%;
   height: 100%;
   display: flex;
   align-items: center;
   margin-left: 50px;
-  @media (max-width: ${viewport.large}) {
-    width: 40%;
+  @media (max-width: ${viewport.small}) {
+    width: 50%;
+    margin: 10px;
   }
 `;
 export const DivPhone = styled.div`
-  width: 25%;
+  width: 30%;
   height: 100%;
   display: flex;
   align-items: center;
-  @media (max-width: ${viewport.large}) {
-    width: 40%;
+  @media (max-width: ${viewport.small}) {
+    width: 50%;
   }
 `;
 export const ImgStyle = styled.img`
@@ -33,6 +35,6 @@ export const ImgStyle = styled.img`
 `;
 export const TextStyle = styled.p`
   font-size: 18px;
-  margin-left: 20px;
+  margin-left: 10px;
   letter-spacing: 0.5px;
 `;
