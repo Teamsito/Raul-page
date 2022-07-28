@@ -1,6 +1,7 @@
 import React from "react"
 import Navbar from "./components/Navbar/index"
 import Infobar from "./components/Infobar/index"
+import Banner from './components/molecules/Banner';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Infobar/>
+      <Banner/>
     </div>
   )
 }
