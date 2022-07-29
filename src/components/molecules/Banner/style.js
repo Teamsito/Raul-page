@@ -8,7 +8,7 @@ export const MainBanner = styled.main`
   width: 100%;
   height: 85vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 0 10%;
   @media (max-width: ${viewport.large}) {
@@ -18,7 +18,6 @@ export const MainBanner = styled.main`
   }
 `;
 export const Information = styled.h1`
-  flex: 1;
   color: #d9d6d6;
   text-shadow: 1px 4px 6px black;
   max-width: 56ch;
@@ -31,11 +30,12 @@ export const Information = styled.h1`
   }
 `;
 export const ImgLogo = styled.img`
-  flex: 1;
+height: 50%;
+width: 35%;
   @media (max-width: ${viewport.large}) {
     flex: 0;
-    width: 100%;
-    height: 40%;
+    width: 65%;
+    height: 60%;
   }
 
 `;

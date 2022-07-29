@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../../assets/img/Logo.png";
+import Logo from "../../../assets/img/LogoMain.png";
 import { MainBanner, ImgLogo, Information } from "./style";
 
 const Index = () => {
