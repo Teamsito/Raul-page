@@ -10,22 +10,29 @@ export const DivStyle = styled.div`
   background: ${theme.secundary};
 `;
 export const DivEmail = styled.div`
-  width: 30%;
+  width: 20%;
   height: 100%;
   display: flex;
   align-items: center;
   margin-left: 50px;
-  @media (max-width: ${viewport.small}) {
+  @media (max-width: ${viewport.large}) {
+    width: 40%;
+    margin-left: 10px;
+  }
+  @media (max-width: ${viewport.medium}) {
     width: 50%;
-    margin: 10px;
+    margin-left: 10px;
   }
 `;
 export const DivPhone = styled.div`
-  width: 30%;
+  width: 20%;
   height: 100%;
   display: flex;
   align-items: center;
-  @media (max-width: ${viewport.small}) {
+  @media (max-width: ${viewport.large}) {
+    width: 40%;
+  }
+  @media (max-width: ${viewport.medium}) {
     width: 50%;
   }
 `;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {theme} from '../../../theme';
+import {theme,viewport} from '../../../theme';
 
 export const Card = styled.div`
     position:relative;
@@ -11,6 +11,10 @@ export const Card = styled.div`
     height: 400px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
+    @media (max-width: ${viewport.medium}) {
+        width: 200px;
+        height: 300px;
+      }
 `;
 
 export const Image = styled.img`

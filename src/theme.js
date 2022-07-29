@@ -13,5 +13,6 @@ export const imgTheme = {
 export const viewport = {
     large: "1300px",
     medium: "900px",
-    small: "570px"
+    small: "570px",
+    xsmall: "380px"
 }
