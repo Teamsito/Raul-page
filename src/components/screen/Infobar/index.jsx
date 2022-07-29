@@ -6,8 +6,8 @@ import {
   ImgStyle,
   TextStyle,
 } from "../Infobar/style";
-import Mail from "../../assets/img/Mail.png";
-import Phone from "../../assets/img/Phone.png";
+import Mail from "../../../assets/img/Mail.png";
+import Phone from "../../../assets/img/Phone.png";
 
 function index() {
   return (

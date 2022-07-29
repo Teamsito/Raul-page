@@ -3,7 +3,7 @@ import Logo from "../../../assets/img/Logo.png";
 import Mail from "../../../assets/img/Mail.png";
 
 import Title from '../../atoms/Title';
-import Card from '../../atoms/Card';
+import Card from '../../molecules/Card';
 
 import {Services} from './style'
 

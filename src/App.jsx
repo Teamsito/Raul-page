@@ -1,9 +1,9 @@
 import React from "react"
-import Navbar from "./components/Navbar/index"
-import Infobar from "./components/Infobar/index"
-import Banner from './components/molecules/Banner';
-import About from "./components/About/index"
-import Services from './components/molecules/Services';
+import Navbar from "./components/screen/Navbar"
+import Infobar from "./components/screen/Infobar"
+import Banner from './components/screen/Banner';
+import About from "./components/screen/About"
+import Services from './components/screen/Services';
 
 
 function App() {

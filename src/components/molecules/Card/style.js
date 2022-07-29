@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {theme,viewport} from '../../../theme';
+import {theme,viewport} from '../../../assets/css/theme';
 
 export const Card = styled.div`
     position:relative;

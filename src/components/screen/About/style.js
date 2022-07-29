@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme, imgTheme, viewport } from "../../theme";
+import { theme, imgTheme, viewport } from "../../../assets/css/theme";
 
 export const SectionStyle = styled.section`
     height: 70vh;
