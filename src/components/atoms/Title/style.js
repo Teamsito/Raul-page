@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme } from "../../../theme";
+import { theme } from "../../../assets/css/theme";
 
 export const Title = styled.h2`
   background:#e2e2e2;
@@ -14,7 +14,7 @@ export const Title = styled.h2`
   z-index: 10;
   &:before {
     content: "";
-    border: 1px solid ${theme.textcolor};
+    border-bottom: 1px solid ${theme.textcolor};
     width: 38%;
     position: absolute;
     top: 35px;
@@ -22,7 +22,7 @@ export const Title = styled.h2`
   }
   &:after {
     content: "";
-    border: 1px solid ${theme.textcolor};
+    border-bottom: 1px solid ${theme.textcolor};
     width: 38%;
     position: absolute;
     top: 35px;
