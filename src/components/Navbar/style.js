@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { fonts } from "../../theme";
 
 export const Navbar = styled.nav`
   width: 100%;
@@ -35,7 +36,8 @@ export const ListNav = styled.div`
   }
 `;
 export const UlStyle = styled.ul`
-  font-family: "GFS Neohellenic", sans-serif;
+  font-family: ${fonts.fontTitle2npm};
+  letter-spacing: 0.5px;
   height: 100%;
   font-size: 24px;
   list-style: none;
@@ -54,7 +56,7 @@ export const LiStyle = styled.li`
   cursor: pointer;
   &:hover {
     color: #026a8b;
-    font-weight: 600;
+    /* font-weight: 600; */
     text-decoration: underline;
     text-decoration-color: #026a8b;
   }

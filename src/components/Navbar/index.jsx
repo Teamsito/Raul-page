@@ -23,10 +23,10 @@ function index() {
       </Brand>
       <ListNav>
         <UlStyle>
-          <LiStyle>INICIO</LiStyle>
-          <LiStyle>NOSOTROS</LiStyle>
-          <LiStyle>SERVICIOS</LiStyle>
-          <LiStyle>CONTACTANOS</LiStyle>
+          <LiStyle>Inicio</LiStyle>
+          <LiStyle>Nosotros</LiStyle>
+          <LiStyle>Servicios</LiStyle>
+          <LiStyle>Contactanos</LiStyle>
         </UlStyle>
       </ListNav>
       <DivButton>
@@ -34,10 +34,10 @@ function index() {
         {vista ? (
           <DivMenu>
             <UlStyle>
-              <LiStyle>INICIO</LiStyle>
-              <LiStyle>NOSOTROS</LiStyle>
-              <LiStyle>SERVICIOS</LiStyle>
-              <LiStyle>CONTACTANOS</LiStyle>
+              <LiStyle>Inicio</LiStyle>
+              <LiStyle>Nosotros</LiStyle>
+              <LiStyle>Servicios</LiStyle>
+              <LiStyle>Contactanos</LiStyle>
             </UlStyle>
           </DivMenu>
         ) : null}

@@ -10,6 +10,12 @@ export const imgTheme = {
     width: "30px",
 }
 
+export const fonts = {
+    fontTitle: "font-family: 'GFS Neohellenic', sans-serif;",
+    fontText: "font-family: 'Anek Bangla', sans-serif;",
+    fontTitle2: "font-family: 'Roboto', sans-serif;"
+}
+
 export const viewport = {
     large: "1300px",
     medium: "900px",
