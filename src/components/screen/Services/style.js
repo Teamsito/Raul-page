@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme, viewport } from "../../../theme";
+import { theme, viewport } from "../../../assets/css/theme";
 
 export const Services = styled.section`
   height: 70vh;
@@ -15,7 +15,7 @@ export const Services = styled.section`
     grid-template-rows: 1fr 1fr;
     justify-items: center;
   }
-  @media (max-width: ${viewport.large}) {
-    height: 110vh;
+  @media (max-width: ${viewport.medium}) {
+    height: 90vh;
   }
 `;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { fonts } from "../../theme";
+import { fonts } from "../../../assets/css/theme";
 
 export const Navbar = styled.nav`
   width: 100%;
@@ -15,7 +15,8 @@ export const Navbar = styled.nav`
 
 export const ImgStyle = styled.img`
   height: 100%;
-  width: 400px;
+  width: 380px;
+    padding: 10px 0;
   @media (max-width: 570px) {
     width: 100%;
   }
@@ -36,7 +37,8 @@ export const ListNav = styled.div`
   }
 `;
 export const UlStyle = styled.ul`
-  font-family: ${fonts.fontTitle2npm};
+  font-family: ${fonts.fontTitle2};
+  font-weight: 500;
   letter-spacing: 0.5px;
   height: 100%;
   font-size: 24px;

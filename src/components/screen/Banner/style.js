@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme, viewport } from "../../../theme";
+import { theme, viewport, fonts } from "../../../assets/css/theme";
 import BannerImg from "../../../assets/img/banner.png";
 
 export const MainBanner = styled.main`
@@ -18,11 +18,13 @@ export const MainBanner = styled.main`
   }
 `;
 export const Information = styled.h1`
-  color: #d9d6d6;
+  color: ${theme.primary};
   text-shadow: 1px 4px 6px black;
   max-width: 56ch;
   font-size: 26px;
   text-align: center;
+  font-weight: 500;
+  font-family: ${fonts.fontText};
   @media (max-width: ${viewport.large}) {
     flex: 0;
     font-size: 22px;

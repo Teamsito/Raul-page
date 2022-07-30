@@ -11,9 +11,9 @@ export const imgTheme = {
 }
 
 export const fonts = {
-    fontTitle: "font-family: 'GFS Neohellenic', sans-serif;",
-    fontText: "font-family: 'Anek Bangla', sans-serif;",
-    fontTitle2: "font-family: 'Roboto', sans-serif;"
+    fontTitle: "'GFS Neohellenic', sans-serif;",
+    fontText: "'Anek Bangla', sans-serif;",
+    fontTitle2: "'Roboto', sans-serif;"
 }
 
 export const viewport = {

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme, imgTheme, viewport } from "../../theme";
+import { theme, imgTheme, viewport, fonts } from "../../../assets/css/theme";
 
 export const DivStyle = styled.div`
   height: 5vh;
@@ -41,7 +41,9 @@ export const ImgStyle = styled.img`
   width: ${imgTheme.width};
 `;
 export const TextStyle = styled.p`
-  font-size: 18px;
+  font-size: 17px;
   margin-left: 10px;
   letter-spacing: 0.5px;
+  font-weight: 500;
+  font-family: ${fonts.fontTitle2};
 `;

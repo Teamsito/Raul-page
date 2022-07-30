@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme, imgTheme, viewport, fonts } from "../../theme";
+import { theme, imgTheme, viewport, fonts } from "../../../assets/css/theme";
 
 export const SectionStyle = styled.section`
     height: 70vh;
@@ -70,12 +70,12 @@ export const TittleStyle = styled.h2`
   }
 `;
 export const TextStyle = styled.p`
-  max-width: 65ch;
+  max-width: 57ch;
   font-size: 20px;
   margin-top: 10px;
   font-family: ${fonts.fontText};
   @media (max-width: 1300px) {
-    font-size: 20px;
+    font-size: 16px;
   }
   
 `;

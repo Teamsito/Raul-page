@@ -7,8 +7,8 @@ import {
   TittleStyle,
   TextStyle,
 } from "./style";
-import About from "../../assets/img/Nosotros.png";
-import Title from "../atoms/Title";
+import About from "../../../assets/img/Nosotros.png";
+import Title from "../../atoms/Title";
 /* import Title from "../../assets/img/titulo nosotros.svg" */
 
 function index() {
