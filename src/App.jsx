@@ -4,6 +4,8 @@ import Infobar from "./components/screen/Infobar"
 import Banner from './components/screen/Banner';
 import About from "./components/screen/About"
 import Services from './components/screen/Services';
+import InfoService from './components/screen/InfoService'
+import Contact from './components/screen/Contact'
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Banner/>
       <About/>
       <Services/>
+      <InfoService/>
+      <Contact/>
     </div>
   )
 }
