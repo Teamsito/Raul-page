@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { fonts, theme, viewport } from "../../../assets/css/theme";
 
+import {getColor} from '../../../../services/getColor.services';
+
 export const UlStyle = styled.ul`
   height: 100%;
   width: 100%;
@@ -16,6 +18,6 @@ export const LiText = styled.li`
   max-width: 57ch;
   font-size: 20px;
   padding: 15px;
-  color: ${theme.primary};
+  color:${props => getColor(props.color)};
   font-family: ${fonts.fontText}
 `;

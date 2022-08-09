@@ -7,7 +7,7 @@ export const DivStyle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: ${theme.secundary}
+  background: ${theme.secundary};
 `;
 
 export const SectionStyle = styled.div`
@@ -15,4 +15,5 @@ export const SectionStyle = styled.div`
   width: 70%;
   border: 1px solid ${theme.primary};
   border-radius: 20px;
+  overflow:auto;
 `;
