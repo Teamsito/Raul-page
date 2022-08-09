@@ -15,7 +15,7 @@ export const Services = styled.section`
     grid-template-rows: 1fr 1fr;
     justify-items: center;
   }
-  @media (max-width: ${viewport.large}) {
-    height: 110vh;
+  @media (max-width: ${viewport.medium}) {
+    height: 90vh;
   }
 `;
