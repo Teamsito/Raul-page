@@ -43,6 +43,7 @@ export const ImgStyle = styled.img`
 export const TextStyle = styled.p`
   font-size: 17px;
   margin-left: 10px;
+  color: ${theme.textcolor};
   letter-spacing: 0.5px;
   font-weight: 500;
   font-family: ${fonts.fontTitle2};

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { fonts } from "../../../assets/css/theme";
+import { theme,fonts } from "../../../assets/css/theme";
 
 export const Navbar = styled.nav`
   width: 100%;
@@ -46,7 +46,7 @@ export const UlStyle = styled.ul`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #5c5c5c;
+  color: ${theme.textcolor};
   @media (max-width: 1300px) {
     display: flex;
     flex-direction: column;
