@@ -6,7 +6,7 @@ import About from "./components/screen/About"
 import Services from './components/screen/Services';
 import InfoService from './components/screen/InfoService'
 import Contact from './components/screen/Contact'
-
+import Footer from './components/screen/Footer';
 
 function App() {
 
@@ -19,6 +19,7 @@ function App() {
       <Services/>
       <InfoService/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

@@ -15,21 +15,17 @@ export const Title = styled.h2`
   z-index: 10;
   &:before {
     content: "";
-
     border-bottom: 1px solid ${theme.textcolor};
     width: 38%;
     position: absolute;
-  z-index: 1;
     top: 35px;
     left: 20px;
   }
   &:after {
     content: "";
-
     border-bottom: 1px solid ${theme.textcolor};
     width: 38%;
     position: absolute;
-  z-index: 1;
     top: 35px;
     right: 20px;
   }
