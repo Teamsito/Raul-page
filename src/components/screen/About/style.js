@@ -73,6 +73,7 @@ export const TextStyle = styled.p`
   max-width: 57ch;
   font-size: 20px;
   margin-top: 10px;
+  color: ${theme.textcolor};
   font-family: ${fonts.fontText};
   @media (max-width: 1300px) {
     font-size: 16px;

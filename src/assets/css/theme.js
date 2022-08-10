@@ -2,7 +2,8 @@ export const theme = {
     primary: "#e2e2e2",
     secundary: "#026A8B",
     dark:"#45454526",
-    textcolor: "#5c5c5c",
+    textcolor: "#454545",
+    button: "#45454526",
 }
 
 export const imgTheme = {

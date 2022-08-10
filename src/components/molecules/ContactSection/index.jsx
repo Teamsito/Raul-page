@@ -1,15 +1,20 @@
 import React from 'react'
-import {DivStyle, ContentDiv} from './style'
+import {DivStyle, ContentDiv, ImgStyle, TextStyle, UlStyle, ButtonStyle} from './style'
+import ImgContact from '../../../assets/img/Contact.png'
 
-function index() {
+function index({textImg,buttonWp,buttonEmail,buttonFb}) {
   return (
     <DivStyle>
         <ContentDiv>
-            <h1>brand</h1>
-            <h1>text</h1>
+            <ImgStyle src={ImgContact} alt="" />
+            <TextStyle>{textImg}</TextStyle>
         </ContentDiv>
         <ContentDiv>
-            <h1>button</h1>
+            <UlStyle>
+              <ButtonStyle>{buttonWp}</ButtonStyle>
+              <ButtonStyle>{buttonEmail}</ButtonStyle>
+              <ButtonStyle>{buttonFb}</ButtonStyle>
+            </UlStyle>
         </ContentDiv>
     </DivStyle>
   )
