@@ -93,9 +93,7 @@ export const FooterBot = styled.div`
     width: 100%;
   }
   @media (max-width: ${viewport.small}) {
-    padding: 0;
-  }
-  @media (max-width: ${viewport.xsmall}) {
+    padding: 0;    
     align-items: flex-start;
     flex-direction: column;
   }
@@ -131,7 +129,7 @@ export const TextCopy = styled.h4`
   }
 `;
 export const DivContentImg = styled.div`
-  @media (max-width: ${viewport.xsmall}) {
+  @media (max-width: ${viewport.small}) {
     display: none;
   }
 `;

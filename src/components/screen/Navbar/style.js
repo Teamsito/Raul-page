@@ -7,7 +7,7 @@ export const Navbar = styled.nav`
   background: #e2e2e2;
   display: flex;
   justify-content: space-around;
-  @media (${viewport.large}) {
+  @media (max-width: ${viewport.large}) {
     justify-content: space-evenly;
     position: relative;
   }
@@ -17,7 +17,7 @@ export const ImgStyle = styled.img`
   height: 100%;
   width: 350px;
   padding: 10px 0;
-  @media (max-width: ${viewport.small, viewport.xsmall}) {
+  @media (max-width: ${viewport.small}) {
     width: 100%;
   }
 `;
