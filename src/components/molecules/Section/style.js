@@ -13,11 +13,19 @@ export const UlStyle = styled.ul`
   justify-items: center;
   align-content: space-evenly;
   list-style: none;
+  @media (max-width: ${viewport.xsmall, viewport.small,viewport.medium}) {
+    align-content: space-between;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
 `;
 export const LiText = styled.li`
   max-width: 57ch;
   font-size: 20px;
   padding: 15px;
   color:${props => getColor(props.color)};
-  font-family: ${fonts.fontText}
+  font-family: ${fonts.fontText};
+  @media (max-width: ${viewport.small}) {
+    font-size: 14px;
+  }
 `;

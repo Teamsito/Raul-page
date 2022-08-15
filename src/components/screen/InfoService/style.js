@@ -8,6 +8,9 @@ export const DivStyle = styled.div`
   justify-content: center;
   align-items: center;
   background: ${theme.secundary};
+  @media (max-width: ${viewport.small}) {
+    height:60vh;
+  }
 `;
 
 export const SectionStyle = styled.div`

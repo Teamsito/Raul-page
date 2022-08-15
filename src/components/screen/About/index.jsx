@@ -14,13 +14,12 @@ import Title from "../../atoms/Title";
 function index() {
   return (
     <>
-      <Title>About</Title>
+      <Title>Mas que un Equipo, Una Familia</Title>
       <SectionStyle>
         <DivImg>
           <ImgStyle src={About} alt="" />
         </DivImg>
         <DivText>
-          <TittleStyle>About</TittleStyle>
           <TextStyle>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
             suscipit quisquam tempora quibusdam quidem. Magni adipisci delectus

@@ -16,6 +16,10 @@ export const MainBanner = styled.main`
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width: ${viewport.xsmall}) {
+    height: 85vh;
+  }
 `;
 export const Information = styled.h1`
   color: ${theme.primary};
@@ -30,14 +34,21 @@ export const Information = styled.h1`
     font-size: 22px;
     margin-top: 12px;
   }
+  @media (max-width: ${viewport.small}) {
+    font-size: 18px;
+    margin-top: 12px;
+  }
+  @media (max-width: ${viewport.xsmall}) {
+    font-size: 16px;
+    margin-top: 20px;
+  }
 `;
 export const ImgLogo = styled.img`
-height: 50%;
-width: 35%;
+  height: 50%;
+  width: 35%;
   @media (max-width: ${viewport.large}) {
     flex: 0;
     width: 65%;
     height: 60%;
   }
-
 `;

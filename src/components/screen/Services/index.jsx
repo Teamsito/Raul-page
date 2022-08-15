@@ -14,8 +14,8 @@ const Index = () => {
         <Services>
             <Card image={Logo} name="Servicio 1"/>
             <Card image={Mail} name="Servicio 2"/>
-            <Card image={Logo} name="ADMINISTRACION RJ"/>
-            <Card image={Logo} name="ADMINISTRACION RJ"/>
+            <Card image={Logo} name="Administracion RJ"/>
+            <Card image={Logo} name="Administracion RJ"/>
         </Services>
     </>
   );

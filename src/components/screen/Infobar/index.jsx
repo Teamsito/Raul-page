@@ -18,7 +18,7 @@ function index() {
       </DivEmail>
       <DivPhone>
         <ImgStyle src={Phone} alt="" />
-        <TextStyle>+51-999-999-999</TextStyle>
+        <TextStyle>999-999-999</TextStyle>
       </DivPhone>
     </DivStyle>
   );
