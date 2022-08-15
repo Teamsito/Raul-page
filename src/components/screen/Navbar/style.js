@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme,fonts } from "../../../assets/css/theme";
+import { theme, fonts, viewport } from "../../../assets/css/theme";
 
 export const Navbar = styled.nav`
   width: 100%;
@@ -7,7 +7,7 @@ export const Navbar = styled.nav`
   background: #e2e2e2;
   display: flex;
   justify-content: space-around;
-  @media (max-width: 1300px) {
+  @media (${viewport.large}) {
     justify-content: space-evenly;
     position: relative;
   }
@@ -15,16 +15,16 @@ export const Navbar = styled.nav`
 
 export const ImgStyle = styled.img`
   height: 100%;
-  width: 380px;
-    padding: 10px 0;
-  @media (max-width: 570px) {
+  width: 350px;
+  padding: 10px 0;
+  @media (max-width: ${viewport.small, viewport.xsmall}) {
     width: 100%;
   }
 `;
 
 export const Brand = styled.div`
   width: 30%;
-  @media (max-width: 1300px) {
+  @media (max-width: ${viewport.large}) {
     width: 70%;
   }
 `;
@@ -32,7 +32,7 @@ export const ListNav = styled.div`
   width: 40%;
   height: 100%;
   padding: 0 20px;
-  @media (max-width: 1300px) {
+  @media (max-width: ${viewport.large}) {
     display: none;
   }
 `;
@@ -47,7 +47,7 @@ export const UlStyle = styled.ul`
   justify-content: space-between;
   align-items: center;
   color: ${theme.textcolor};
-  @media (max-width: 1300px) {
+  @media (max-width: ${viewport.large}) {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -62,7 +62,7 @@ export const LiStyle = styled.li`
     text-decoration: underline;
     text-decoration-color: #026a8b;
   }
-  @media (max-width: 1300px) {
+  @media (max-width: ${viewport.large}) {
     text-decoration: none;
   }
 `;

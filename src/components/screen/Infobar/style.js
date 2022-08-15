@@ -47,4 +47,10 @@ export const TextStyle = styled.p`
   letter-spacing: 0.5px;
   font-weight: 500;
   font-family: ${fonts.fontTitle2};
+  @media (max-width: ${viewport.small}) {
+    font-size: 14px
+  }
+  @media (max-width: ${viewport.xsmall}) {
+    font-size: 12px
+  }
 `;

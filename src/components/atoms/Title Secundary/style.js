@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { fonts, theme } from "../../../assets/css/theme";
+import { fonts, theme,viewport } from "../../../assets/css/theme";
 
 export const Title = styled.h2`
   background:${theme.secundary};
@@ -20,6 +20,15 @@ export const Title = styled.h2`
     position: absolute;
     top: 35px;
     left: 20px;
+    @media (max-width: ${viewport.large}) {
+      width: 20%;
+    }
+    @media (max-width: ${viewport.medium}) {
+      width: 5%;
+    }
+    @media (max-width: ${viewport.small}) {
+      border: none;
+    }
   }
   &:after {
     content: "";
@@ -28,6 +37,18 @@ export const Title = styled.h2`
     position: absolute;
     top: 35px;
     right: 20px;
+    @media (max-width: ${viewport.large}) {
+      width: 20%;
+    }
+    @media (max-width: ${viewport.medium}) {
+      width: 5%;
+    }
+    @media (max-width: ${viewport.small}) {
+      border: none;
+    }
+  }
+  @media (max-width: ${viewport.xsmall, viewport.small}) {
+    font-size: 18px
   }
 `;
 

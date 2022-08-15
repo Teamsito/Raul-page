@@ -6,29 +6,60 @@ export const DivStyle = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  @media (max-width: ${viewport.medium}) {
+    flex-direction: column;
+  }
 `;
 
 export const ContentDiv = styled.div`
-  width: 40%;
+  width: 35%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (max-width: ${viewport.large}) {
+    width: 45%;
+  }
+  @media (max-width: ${viewport.medium}) {
+    width: 100%;
+    height: 50%;
+  }
+  @media (max-width: ${viewport.small}) {
+    font-size: 14px;
+  }
 `;
 
 export const ImgStyle = styled.img`
   height: 50%;
   width: 65%;
+  @media (max-width: ${viewport.large}) {
+    width: 80%;
+  }
+  @media (max-width: ${viewport.medium}) {
+    height: 45%;
+    width: 30%;
+    margin-top: 10px;
+  }
+  @media (max-width: ${viewport.xsmall}) {
+    display: none;
+  }
 `;
 export const TextStyle = styled.p`
   max-width: 57ch;
   font-size: 20px;
+  text-align: center;
   margin-top: 20px;
   color: ${theme.textcolor};
   font-family: ${fonts.fontText};
-  @media (max-width: 1300px) {
+  @media (max-width: ${viewport.large}) {
+    font-size: 18px;
+  }
+  @media (max-width: ${viewport.medium}) {
     font-size: 16px;
+  }
+  @media (max-width: ${viewport.small}) {
+    font-size: 14px;
   }
 `;
 export const UlStyle = styled.ul`
@@ -56,5 +87,14 @@ export const ButtonStyle = styled.li`
   &:hover {
     color: ${theme.primary};
     background: ${theme.secundary};
+  }
+  @media (max-width: ${viewport.medium}) {
+    font-size: 18px;
+    width: 300px;
+    height: 40px;
+  }
+  @media (max-width: ${viewport.small}) {
+    font-size: 16px;
+    width: 235px;
   }
 `;
