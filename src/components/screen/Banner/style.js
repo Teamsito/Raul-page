@@ -45,10 +45,13 @@ export const Information = styled.h1`
 `;
 export const ImgLogo = styled.img`
   height: 50%;
-  width: 35%;
+  width: 30%;
   @media (max-width: ${viewport.large}) {
     flex: 0;
     width: 65%;
     height: 60%;
+  }
+  @media (max-width: ${viewport.xsmall}) {
+    width: 85%;
   }
 `;

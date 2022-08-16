@@ -41,7 +41,7 @@ export const ImgStyle = styled.img`
     width: 30%;
     margin-top: 10px;
   }
-  @media (max-width: ${viewport.xsmall}) {
+  @media (max-width: ${viewport.small}) {
     display: none;
   }
 `;
@@ -70,6 +70,7 @@ export const UlStyle = styled.ul`
   justify-content: center;
   align-items: center;
   width: 100%;
+  cursor: pointer;
 `;
 export const ButtonStyle = styled.li`
   height: 60px;

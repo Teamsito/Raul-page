@@ -52,6 +52,9 @@ export const UlStyle = styled.ul`
     flex-direction: column;
     justify-content: space-around;
   }
+  @media (max-width: ${viewport.small}) {
+    font-size: 20px
+  }
 `;
 
 export const LiStyle = styled.li`
@@ -91,4 +94,7 @@ export const DivMenu = styled.div`
   height: 50vh;
   top: 10vh;
   left: 0px;
+  @media (max-width: ${viewport.small}) {
+    height: 40vh;
+  }
 `;

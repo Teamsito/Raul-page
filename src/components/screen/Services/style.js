@@ -20,6 +20,6 @@ export const Services = styled.section`
     height: 100vh;
   }
   @media (max-width: ${viewport.small}) {
-    height: 60vh;
+    height: 70vh;
   }
 `;

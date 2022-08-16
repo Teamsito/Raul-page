@@ -6,6 +6,6 @@ export const DivStyle = styled.div`
   width: 100%;
   background: ${theme.primary};
   @media (max-width: ${viewport.small}) {
-    height: 60vh;
+    height: 70vh;
   }
 `;

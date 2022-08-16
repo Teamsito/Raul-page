@@ -15,8 +15,8 @@ export const Card = styled.div`
     width: 200px;
     height: 300px;
   }
-  @media (max-width: ${viewport.xsmall, viewport.small}) {
-    width: 130px;
+  @media (max-width: ${viewport.small}) {
+    width: 140px;
     height: 190px;
   }
   @media (max-width: ${viewport.xsmall}) {

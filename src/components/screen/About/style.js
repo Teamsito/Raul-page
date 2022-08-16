@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "../../../assets/img/Nosotros.png";
 import { theme, imgTheme, viewport, fonts } from "../../../assets/css/theme";
 
 export const SectionStyle = styled.section`
@@ -15,10 +16,15 @@ export const SectionStyle = styled.section`
     @media (max-width: ${viewport.medium}) {
       height: 100vh;
     }
-    @media (max-width: ${viewport.xsmall, viewport.small}) {
-      height: 60vh;
+    @media (max-width: ${viewport.small}) {
+      height: 70vh;
     }
-
+    @media (max-width: ${viewport.xsmall}) {
+/*       background-image: url(${Image});
+      background-position: center;
+      background-size: 290px 220px;
+      background-repeat: no-repeat; */
+    }
 }
 `;
 export const DivImg = styled.div`
@@ -48,8 +54,8 @@ export const ImgStyle = styled.img`
     width: 40%;
   }
   @media (max-width: ${viewport.xsmall, viewport.small}) {
-    height: 80%;
-    width: 50%;
+    height: 100%;
+    width: 75%;
   }
 `;
 export const DivText = styled.div`

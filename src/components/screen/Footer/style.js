@@ -62,6 +62,10 @@ export const FooterInfo = styled.div`
     letter-spacing: 0.045em;
     margin: 20px 0;
     color: #fff;
+    cursor: pointer;
+    &:hover {
+      color: ${theme.textcolor};
+    }
     @media (max-width: ${viewport.large}) {
       font-size: 22px;
     }
